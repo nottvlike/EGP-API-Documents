@@ -1,0 +1,59 @@
+\hypertarget{class_e_c_s_1_1_common_1_1_mono_singleton}{}\doxysection{E\+C\+S.\+Common.\+Mono\+Singleton$<$ T $>$ Class Template Reference}
+\label{class_e_c_s_1_1_common_1_1_mono_singleton}\index{ECS.Common.MonoSingleton$<$ T $>$@{ECS.Common.MonoSingleton$<$ T $>$}}
+
+
+Be aware this will not prevent a non singleton constructor such as {\ttfamily T myT = new T();} To prevent that, add {\ttfamily protected T () \{\}} to your singleton class.  
+
+
+Inheritance diagram for E\+C\+S.\+Common.\+Mono\+Singleton$<$ T $>$\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_e_c_s_1_1_common_1_1_mono_singleton}
+\end{center}
+\end{figure}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_e_c_s_1_1_common_1_1_mono_singleton_a5400db0bcb0ee5830b49c139057b073a}{On\+Destroy}} ()
+\begin{DoxyCompactList}\small\item\em When Unity quits, it destroys objects in a random order. In principle, a \mbox{\hyperlink{class_e_c_s_1_1_common_1_1_singleton}{Singleton}} is only destroyed when application quits. If any script calls Instance after it have been destroyed, it will create a buggy ghost object that will stay on the Editor scene even after stopping playing the Application. Really bad! So, this was made to be sure we\textquotesingle{}re not creating that buggy ghost object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+static T \mbox{\hyperlink{class_e_c_s_1_1_common_1_1_mono_singleton_ab4cdf52454a07bc93b9f8d641e651a88}{Instance}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Be aware this will not prevent a non singleton constructor such as {\ttfamily T myT = new T();} To prevent that, add {\ttfamily protected T () \{\}} to your singleton class. 
+
+As a note, this is made as Mono\+Behaviour because we need Coroutines. see \href{http://wiki.unity3d.com/index.php/Singleton}{\texttt{ http\+://wiki.\+unity3d.\+com/index.\+php/\+Singleton}} for more infomation.\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em Mono\+Behaviour}]\end{description}
+\end{Desc}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_e_c_s_1_1_common_1_1_mono_singleton_a5400db0bcb0ee5830b49c139057b073a}\label{class_e_c_s_1_1_common_1_1_mono_singleton_a5400db0bcb0ee5830b49c139057b073a}} 
+\index{ECS.Common.MonoSingleton$<$ T $>$@{ECS.Common.MonoSingleton$<$ T $>$}!OnDestroy@{OnDestroy}}
+\index{OnDestroy@{OnDestroy}!ECS.Common.MonoSingleton$<$ T $>$@{ECS.Common.MonoSingleton$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{OnDestroy()}{OnDestroy()}}
+{\footnotesize\ttfamily virtual void \mbox{\hyperlink{class_e_c_s_1_1_common_1_1_mono_singleton}{E\+C\+S.\+Common.\+Mono\+Singleton}}$<$ T $>$.On\+Destroy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+When Unity quits, it destroys objects in a random order. In principle, a \mbox{\hyperlink{class_e_c_s_1_1_common_1_1_singleton}{Singleton}} is only destroyed when application quits. If any script calls Instance after it have been destroyed, it will create a buggy ghost object that will stay on the Editor scene even after stopping playing the Application. Really bad! So, this was made to be sure we\textquotesingle{}re not creating that buggy ghost object. 
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_e_c_s_1_1_common_1_1_mono_singleton_ab4cdf52454a07bc93b9f8d641e651a88}\label{class_e_c_s_1_1_common_1_1_mono_singleton_ab4cdf52454a07bc93b9f8d641e651a88}} 
+\index{ECS.Common.MonoSingleton$<$ T $>$@{ECS.Common.MonoSingleton$<$ T $>$}!Instance@{Instance}}
+\index{Instance@{Instance}!ECS.Common.MonoSingleton$<$ T $>$@{ECS.Common.MonoSingleton$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Instance}{Instance}}
+{\footnotesize\ttfamily T \mbox{\hyperlink{class_e_c_s_1_1_common_1_1_mono_singleton}{E\+C\+S.\+Common.\+Mono\+Singleton}}$<$ T $>$.Instance\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Core/\+Script/\+Common/Mono\+Singleton.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,188 @@
+\hypertarget{struct_e_c_s_1_1_unit_1_1_unit}{}\doxysection{E\+C\+S.\+Unit.\+Unit Struct Reference}
+\label{struct_e_c_s_1_1_unit_1_1_unit}\index{ECS.Unit.Unit@{ECS.Unit.Unit}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_e_c_s_1_1_unit_1_1_unit_a27d20488d9848100fd4cb0d9e0c1652a}{Unit}} (uint unit\+Id, int required\+Module\+Group)
+\item 
+void \mbox{\hyperlink{struct_e_c_s_1_1_unit_1_1_unit_aeb7f53c393756782ddfca4cba7677784}{Add\+Data}} (\mbox{\hyperlink{interface_e_c_s_1_1_data_1_1_i_data}{I\+Data}} data, Type key=null)
+\item 
+void \mbox{\hyperlink{struct_e_c_s_1_1_unit_1_1_unit_ad991399a517f3dec261446374740b7c6}{Remove\+Data}} (\mbox{\hyperlink{interface_e_c_s_1_1_data_1_1_i_data}{I\+Data}} data)
+\item 
+void \mbox{\hyperlink{struct_e_c_s_1_1_unit_1_1_unit_a51fc5d08c7b8626227d533b6a9203a91}{Remove\+Data}} (Type type)
+\item 
+\mbox{\hyperlink{interface_e_c_s_1_1_data_1_1_i_data}{I\+Data}} \mbox{\hyperlink{struct_e_c_s_1_1_unit_1_1_unit_ad539687dbbb652bbf45347cf5160cb84}{Get\+Data}} (Type type, bool include\+Deleted=true)
+\item 
+\mbox{\hyperlink{interface_e_c_s_1_1_data_1_1_i_data}{I\+Data}} \mbox{\hyperlink{struct_e_c_s_1_1_unit_1_1_unit_acaec8e1006d4c153e0c564c332543a83}{Try\+Get\+Data}} (Type type, bool include\+Deleted=true)
+\item 
+T \mbox{\hyperlink{struct_e_c_s_1_1_unit_1_1_unit_a3abebe6e8aea56624e9858e76b8ae0ae}{Add\+Data$<$ T $>$}} ()
+\item 
+void \mbox{\hyperlink{struct_e_c_s_1_1_unit_1_1_unit_af034c46b828c5e8ad717474dc78e22b1}{Remove\+Data$<$ T $>$}} ()
+\item 
+T \mbox{\hyperlink{struct_e_c_s_1_1_unit_1_1_unit_af2d51334a26f3d74f8eb615053d742f1}{Get\+Data$<$ T $>$}} (bool include\+Deleted=true)
+\item 
+T \mbox{\hyperlink{struct_e_c_s_1_1_unit_1_1_unit_a104978018bf19e1271c4241884200a49}{Try\+Get\+Data$<$ T $>$}} (bool include\+Deleted=true)
+\item 
+I\+Enumerable$<$ \mbox{\hyperlink{interface_e_c_s_1_1_data_1_1_i_data}{I\+Data}} $>$ \mbox{\hyperlink{struct_e_c_s_1_1_unit_1_1_unit_aaae885826bdfdb89e4dadb5dec2acf84}{Get\+All\+Data}} ()
+\item 
+void \mbox{\hyperlink{struct_e_c_s_1_1_unit_1_1_unit_a45711f4dee7dd97a7a4a47c183d130af}{Update\+Required\+Module\+Group}} (int group)
+\item 
+void \mbox{\hyperlink{struct_e_c_s_1_1_unit_1_1_unit_abea5a1cb251e1a552be4e8409bdd4a4b}{Update\+Meet\+Module\+List}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_e_c_s_1_1_unit_1_1_unit_manager}{Unit\+Manager}} \mbox{\hyperlink{struct_e_c_s_1_1_unit_1_1_unit_a9f65c7aba1eae4e853471b06428eed4f}{unit\+Mgr}} =$>$ World\+Manager.\+Instance.\+Unit
+\item 
+\mbox{\hyperlink{class_e_c_s_1_1_module_1_1_module_manager}{Module\+Manager}} \mbox{\hyperlink{struct_e_c_s_1_1_unit_1_1_unit_a3edd8b1abc145622a71e35da0b379d3e}{module\+Mgr}} =$>$ World\+Manager.\+Instance.\+Module
+\item 
+Data\+Manager \mbox{\hyperlink{struct_e_c_s_1_1_unit_1_1_unit_ac6d9e79ae0f6cab01c866ab058327d76}{data\+Mgr}} =$>$ World\+Manager.\+Instance.\+Data
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+uint \mbox{\hyperlink{struct_e_c_s_1_1_unit_1_1_unit_ab1dcedcac93ab7c06b13ff9361fda728}{Unit\+Id}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+int \mbox{\hyperlink{struct_e_c_s_1_1_unit_1_1_unit_a94e7c83922d745d1c344bbc9050ea6d4}{Required\+Module\+Group}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{struct_e_c_s_1_1_unit_1_1_unit_a27d20488d9848100fd4cb0d9e0c1652a}\label{struct_e_c_s_1_1_unit_1_1_unit_a27d20488d9848100fd4cb0d9e0c1652a}} 
+\index{ECS.Unit.Unit@{ECS.Unit.Unit}!Unit@{Unit}}
+\index{Unit@{Unit}!ECS.Unit.Unit@{ECS.Unit.Unit}}
+\doxysubsubsection{\texorpdfstring{Unit()}{Unit()}}
+{\footnotesize\ttfamily E\+C\+S.\+Unit.\+Unit.\+Unit (\begin{DoxyParamCaption}\item[{uint}]{unit\+Id,  }\item[{int}]{required\+Module\+Group }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{struct_e_c_s_1_1_unit_1_1_unit_aeb7f53c393756782ddfca4cba7677784}\label{struct_e_c_s_1_1_unit_1_1_unit_aeb7f53c393756782ddfca4cba7677784}} 
+\index{ECS.Unit.Unit@{ECS.Unit.Unit}!AddData@{AddData}}
+\index{AddData@{AddData}!ECS.Unit.Unit@{ECS.Unit.Unit}}
+\doxysubsubsection{\texorpdfstring{AddData()}{AddData()}}
+{\footnotesize\ttfamily void E\+C\+S.\+Unit.\+Unit.\+Add\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_e_c_s_1_1_data_1_1_i_data}{I\+Data}}}]{data,  }\item[{Type}]{key = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{struct_e_c_s_1_1_unit_1_1_unit_a3abebe6e8aea56624e9858e76b8ae0ae}\label{struct_e_c_s_1_1_unit_1_1_unit_a3abebe6e8aea56624e9858e76b8ae0ae}} 
+\index{ECS.Unit.Unit@{ECS.Unit.Unit}!AddData$<$ T $>$@{AddData$<$ T $>$}}
+\index{AddData$<$ T $>$@{AddData$<$ T $>$}!ECS.Unit.Unit@{ECS.Unit.Unit}}
+\doxysubsubsection{\texorpdfstring{AddData$<$ T $>$()}{AddData< T >()}}
+{\footnotesize\ttfamily T \mbox{\hyperlink{struct_e_c_s_1_1_unit_1_1_unit_aeb7f53c393756782ddfca4cba7677784}{E\+C\+S.\+Unit.\+Unit.\+Add\+Data}}$<$ T $>$ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em I\+Data}]\end{description}
+\end{Desc}
+\mbox{\Hypertarget{struct_e_c_s_1_1_unit_1_1_unit_aaae885826bdfdb89e4dadb5dec2acf84}\label{struct_e_c_s_1_1_unit_1_1_unit_aaae885826bdfdb89e4dadb5dec2acf84}} 
+\index{ECS.Unit.Unit@{ECS.Unit.Unit}!GetAllData@{GetAllData}}
+\index{GetAllData@{GetAllData}!ECS.Unit.Unit@{ECS.Unit.Unit}}
+\doxysubsubsection{\texorpdfstring{GetAllData()}{GetAllData()}}
+{\footnotesize\ttfamily I\+Enumerable$<$\mbox{\hyperlink{interface_e_c_s_1_1_data_1_1_i_data}{I\+Data}}$>$ E\+C\+S.\+Unit.\+Unit.\+Get\+All\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{struct_e_c_s_1_1_unit_1_1_unit_ad539687dbbb652bbf45347cf5160cb84}\label{struct_e_c_s_1_1_unit_1_1_unit_ad539687dbbb652bbf45347cf5160cb84}} 
+\index{ECS.Unit.Unit@{ECS.Unit.Unit}!GetData@{GetData}}
+\index{GetData@{GetData}!ECS.Unit.Unit@{ECS.Unit.Unit}}
+\doxysubsubsection{\texorpdfstring{GetData()}{GetData()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_e_c_s_1_1_data_1_1_i_data}{I\+Data}} E\+C\+S.\+Unit.\+Unit.\+Get\+Data (\begin{DoxyParamCaption}\item[{Type}]{type,  }\item[{bool}]{include\+Deleted = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{struct_e_c_s_1_1_unit_1_1_unit_af2d51334a26f3d74f8eb615053d742f1}\label{struct_e_c_s_1_1_unit_1_1_unit_af2d51334a26f3d74f8eb615053d742f1}} 
+\index{ECS.Unit.Unit@{ECS.Unit.Unit}!GetData$<$ T $>$@{GetData$<$ T $>$}}
+\index{GetData$<$ T $>$@{GetData$<$ T $>$}!ECS.Unit.Unit@{ECS.Unit.Unit}}
+\doxysubsubsection{\texorpdfstring{GetData$<$ T $>$()}{GetData< T >()}}
+{\footnotesize\ttfamily T \mbox{\hyperlink{struct_e_c_s_1_1_unit_1_1_unit_ad539687dbbb652bbf45347cf5160cb84}{E\+C\+S.\+Unit.\+Unit.\+Get\+Data}}$<$ T $>$ (\begin{DoxyParamCaption}\item[{bool}]{include\+Deleted = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em I\+Data}]\end{description}
+\end{Desc}
+\mbox{\Hypertarget{struct_e_c_s_1_1_unit_1_1_unit_ad991399a517f3dec261446374740b7c6}\label{struct_e_c_s_1_1_unit_1_1_unit_ad991399a517f3dec261446374740b7c6}} 
+\index{ECS.Unit.Unit@{ECS.Unit.Unit}!RemoveData@{RemoveData}}
+\index{RemoveData@{RemoveData}!ECS.Unit.Unit@{ECS.Unit.Unit}}
+\doxysubsubsection{\texorpdfstring{RemoveData()}{RemoveData()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void E\+C\+S.\+Unit.\+Unit.\+Remove\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_e_c_s_1_1_data_1_1_i_data}{I\+Data}}}]{data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{struct_e_c_s_1_1_unit_1_1_unit_a51fc5d08c7b8626227d533b6a9203a91}\label{struct_e_c_s_1_1_unit_1_1_unit_a51fc5d08c7b8626227d533b6a9203a91}} 
+\index{ECS.Unit.Unit@{ECS.Unit.Unit}!RemoveData@{RemoveData}}
+\index{RemoveData@{RemoveData}!ECS.Unit.Unit@{ECS.Unit.Unit}}
+\doxysubsubsection{\texorpdfstring{RemoveData()}{RemoveData()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void E\+C\+S.\+Unit.\+Unit.\+Remove\+Data (\begin{DoxyParamCaption}\item[{Type}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{struct_e_c_s_1_1_unit_1_1_unit_af034c46b828c5e8ad717474dc78e22b1}\label{struct_e_c_s_1_1_unit_1_1_unit_af034c46b828c5e8ad717474dc78e22b1}} 
+\index{ECS.Unit.Unit@{ECS.Unit.Unit}!RemoveData$<$ T $>$@{RemoveData$<$ T $>$}}
+\index{RemoveData$<$ T $>$@{RemoveData$<$ T $>$}!ECS.Unit.Unit@{ECS.Unit.Unit}}
+\doxysubsubsection{\texorpdfstring{RemoveData$<$ T $>$()}{RemoveData< T >()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{struct_e_c_s_1_1_unit_1_1_unit_ad991399a517f3dec261446374740b7c6}{E\+C\+S.\+Unit.\+Unit.\+Remove\+Data}}$<$ T $>$ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em I\+Data}]\end{description}
+\end{Desc}
+\mbox{\Hypertarget{struct_e_c_s_1_1_unit_1_1_unit_acaec8e1006d4c153e0c564c332543a83}\label{struct_e_c_s_1_1_unit_1_1_unit_acaec8e1006d4c153e0c564c332543a83}} 
+\index{ECS.Unit.Unit@{ECS.Unit.Unit}!TryGetData@{TryGetData}}
+\index{TryGetData@{TryGetData}!ECS.Unit.Unit@{ECS.Unit.Unit}}
+\doxysubsubsection{\texorpdfstring{TryGetData()}{TryGetData()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_e_c_s_1_1_data_1_1_i_data}{I\+Data}} E\+C\+S.\+Unit.\+Unit.\+Try\+Get\+Data (\begin{DoxyParamCaption}\item[{Type}]{type,  }\item[{bool}]{include\+Deleted = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{struct_e_c_s_1_1_unit_1_1_unit_a104978018bf19e1271c4241884200a49}\label{struct_e_c_s_1_1_unit_1_1_unit_a104978018bf19e1271c4241884200a49}} 
+\index{ECS.Unit.Unit@{ECS.Unit.Unit}!TryGetData$<$ T $>$@{TryGetData$<$ T $>$}}
+\index{TryGetData$<$ T $>$@{TryGetData$<$ T $>$}!ECS.Unit.Unit@{ECS.Unit.Unit}}
+\doxysubsubsection{\texorpdfstring{TryGetData$<$ T $>$()}{TryGetData< T >()}}
+{\footnotesize\ttfamily T \mbox{\hyperlink{struct_e_c_s_1_1_unit_1_1_unit_acaec8e1006d4c153e0c564c332543a83}{E\+C\+S.\+Unit.\+Unit.\+Try\+Get\+Data}}$<$ T $>$ (\begin{DoxyParamCaption}\item[{bool}]{include\+Deleted = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em I\+Data}]\end{description}
+\end{Desc}
+\mbox{\Hypertarget{struct_e_c_s_1_1_unit_1_1_unit_abea5a1cb251e1a552be4e8409bdd4a4b}\label{struct_e_c_s_1_1_unit_1_1_unit_abea5a1cb251e1a552be4e8409bdd4a4b}} 
+\index{ECS.Unit.Unit@{ECS.Unit.Unit}!UpdateMeetModuleList@{UpdateMeetModuleList}}
+\index{UpdateMeetModuleList@{UpdateMeetModuleList}!ECS.Unit.Unit@{ECS.Unit.Unit}}
+\doxysubsubsection{\texorpdfstring{UpdateMeetModuleList()}{UpdateMeetModuleList()}}
+{\footnotesize\ttfamily void E\+C\+S.\+Unit.\+Unit.\+Update\+Meet\+Module\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{struct_e_c_s_1_1_unit_1_1_unit_a45711f4dee7dd97a7a4a47c183d130af}\label{struct_e_c_s_1_1_unit_1_1_unit_a45711f4dee7dd97a7a4a47c183d130af}} 
+\index{ECS.Unit.Unit@{ECS.Unit.Unit}!UpdateRequiredModuleGroup@{UpdateRequiredModuleGroup}}
+\index{UpdateRequiredModuleGroup@{UpdateRequiredModuleGroup}!ECS.Unit.Unit@{ECS.Unit.Unit}}
+\doxysubsubsection{\texorpdfstring{UpdateRequiredModuleGroup()}{UpdateRequiredModuleGroup()}}
+{\footnotesize\ttfamily void E\+C\+S.\+Unit.\+Unit.\+Update\+Required\+Module\+Group (\begin{DoxyParamCaption}\item[{int}]{group }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{struct_e_c_s_1_1_unit_1_1_unit_ac6d9e79ae0f6cab01c866ab058327d76}\label{struct_e_c_s_1_1_unit_1_1_unit_ac6d9e79ae0f6cab01c866ab058327d76}} 
+\index{ECS.Unit.Unit@{ECS.Unit.Unit}!dataMgr@{dataMgr}}
+\index{dataMgr@{dataMgr}!ECS.Unit.Unit@{ECS.Unit.Unit}}
+\doxysubsubsection{\texorpdfstring{dataMgr}{dataMgr}}
+{\footnotesize\ttfamily Data\+Manager E\+C\+S.\+Unit.\+Unit.\+data\+Mgr =$>$ World\+Manager.\+Instance.\+Data}
+
+\mbox{\Hypertarget{struct_e_c_s_1_1_unit_1_1_unit_a3edd8b1abc145622a71e35da0b379d3e}\label{struct_e_c_s_1_1_unit_1_1_unit_a3edd8b1abc145622a71e35da0b379d3e}} 
+\index{ECS.Unit.Unit@{ECS.Unit.Unit}!moduleMgr@{moduleMgr}}
+\index{moduleMgr@{moduleMgr}!ECS.Unit.Unit@{ECS.Unit.Unit}}
+\doxysubsubsection{\texorpdfstring{moduleMgr}{moduleMgr}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_e_c_s_1_1_module_1_1_module_manager}{Module\+Manager}} E\+C\+S.\+Unit.\+Unit.\+module\+Mgr =$>$ World\+Manager.\+Instance.\+Module}
+
+\mbox{\Hypertarget{struct_e_c_s_1_1_unit_1_1_unit_a9f65c7aba1eae4e853471b06428eed4f}\label{struct_e_c_s_1_1_unit_1_1_unit_a9f65c7aba1eae4e853471b06428eed4f}} 
+\index{ECS.Unit.Unit@{ECS.Unit.Unit}!unitMgr@{unitMgr}}
+\index{unitMgr@{unitMgr}!ECS.Unit.Unit@{ECS.Unit.Unit}}
+\doxysubsubsection{\texorpdfstring{unitMgr}{unitMgr}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_e_c_s_1_1_unit_1_1_unit_manager}{Unit\+Manager}} E\+C\+S.\+Unit.\+Unit.\+unit\+Mgr =$>$ World\+Manager.\+Instance.\+Unit}
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{struct_e_c_s_1_1_unit_1_1_unit_a94e7c83922d745d1c344bbc9050ea6d4}\label{struct_e_c_s_1_1_unit_1_1_unit_a94e7c83922d745d1c344bbc9050ea6d4}} 
+\index{ECS.Unit.Unit@{ECS.Unit.Unit}!RequiredModuleGroup@{RequiredModuleGroup}}
+\index{RequiredModuleGroup@{RequiredModuleGroup}!ECS.Unit.Unit@{ECS.Unit.Unit}}
+\doxysubsubsection{\texorpdfstring{RequiredModuleGroup}{RequiredModuleGroup}}
+{\footnotesize\ttfamily int E\+C\+S.\+Unit.\+Unit.\+Required\+Module\+Group\hspace{0.3cm}{\ttfamily [get]}}
+
+\mbox{\Hypertarget{struct_e_c_s_1_1_unit_1_1_unit_ab1dcedcac93ab7c06b13ff9361fda728}\label{struct_e_c_s_1_1_unit_1_1_unit_ab1dcedcac93ab7c06b13ff9361fda728}} 
+\index{ECS.Unit.Unit@{ECS.Unit.Unit}!UnitId@{UnitId}}
+\index{UnitId@{UnitId}!ECS.Unit.Unit@{ECS.Unit.Unit}}
+\doxysubsubsection{\texorpdfstring{UnitId}{UnitId}}
+{\footnotesize\ttfamily uint E\+C\+S.\+Unit.\+Unit.\+Unit\+Id\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Core/\+Script/\+Unit/Unit.\+cs\end{DoxyCompactItemize}
