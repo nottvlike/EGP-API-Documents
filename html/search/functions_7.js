@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hide_646',['Hide',['../class_helper_1_1_u_i_manager_helper.html#a32a86bc7e1614d45e2071a80fe032628',1,'Helper.UIManagerHelper.Hide()'],['../class_e_c_s_1_1_u_i_1_1_u_i_manager.html#ab77e23e306a8c536f1f72beeed9c9187',1,'ECS.UI.UIManager.Hide()']]]
+  ['hide_639',['Hide',['../class_e_c_s_1_1_helper_1_1_u_i_process_helper.html#abab6eeec95dcc0f12e45d84601647c7b',1,'ECS.Helper.UIProcessHelper.Hide()'],['../class_e_c_s_1_1_module_1_1_u_i_process.html#a31572574894753996d1421aff2ba3fe1',1,'ECS.Module.UIProcess.Hide()']]]
 ];

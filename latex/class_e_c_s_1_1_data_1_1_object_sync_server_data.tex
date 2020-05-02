@@ -1,0 +1,83 @@
+\hypertarget{class_e_c_s_1_1_data_1_1_object_sync_server_data}{}\doxysection{E\+C\+S.\+Data.\+Object\+Sync\+Server\+Data Class Reference}
+\label{class_e_c_s_1_1_data_1_1_object_sync_server_data}\index{ECS.Data.ObjectSyncServerData@{ECS.Data.ObjectSyncServerData}}
+Inheritance diagram for E\+C\+S.\+Data.\+Object\+Sync\+Server\+Data\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_e_c_s_1_1_data_1_1_object_sync_server_data}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Reactive\+Collection$<$ \mbox{\hyperlink{struct_e_c_s_1_1_data_1_1_server_sync_state_info}{Server\+Sync\+State\+Info}} $>$ \mbox{\hyperlink{class_e_c_s_1_1_data_1_1_object_sync_server_data_ae204e0ec8d844c0e668477df3fb4e329}{prepared\+Sync\+Info\+List}} = new Reactive\+Collection$<$\mbox{\hyperlink{struct_e_c_s_1_1_data_1_1_server_sync_state_info}{Server\+Sync\+State\+Info}}$>$()
+\item 
+List$<$ \mbox{\hyperlink{struct_e_c_s_1_1_data_1_1_server_sync_state_info}{Server\+Sync\+State\+Info}} $>$ \mbox{\hyperlink{class_e_c_s_1_1_data_1_1_object_sync_server_data_a37ec55f2f9f82852e4acfcec8c6128de}{cached\+Sync\+Info\+List}} = new List$<$\mbox{\hyperlink{struct_e_c_s_1_1_data_1_1_server_sync_state_info}{Server\+Sync\+State\+Info}}$>$()
+\item 
+Reactive\+Property$<$ bool $>$ \mbox{\hyperlink{class_e_c_s_1_1_data_1_1_object_sync_server_data_ae59b41bb583292e25a5bd5bff651b303}{enable}} = new Reactive\+Property$<$bool$>$(false)
+\item 
+int \mbox{\hyperlink{class_e_c_s_1_1_data_1_1_object_sync_server_data_aa7350154da426f9f5e0027734e17ef30}{server\+Key\+Frame}}
+\item 
+int \mbox{\hyperlink{class_e_c_s_1_1_data_1_1_object_sync_server_data_a5f1c8819e8611bc6b80e9d00299df80c}{current\+Key\+Frame}}
+\item 
+int \mbox{\hyperlink{class_e_c_s_1_1_data_1_1_object_sync_server_data_a7ff2439ac8588ba941a49b9b0ccb38f9}{internal\+Frame}}
+\item 
+int \mbox{\hyperlink{class_e_c_s_1_1_data_1_1_object_sync_server_data_a986916aa6b3a97c47cd4568145b227ba}{internal\+Frame\+Size}} = 6
+\item 
+I\+Subject$<$ Value\+Tuple$<$ int, int $>$ $>$ \mbox{\hyperlink{class_e_c_s_1_1_data_1_1_object_sync_server_data_affa5900d4c9b0ab6e3c5ceb71091595d}{sync\+Subject}} = new Subject$<$Value\+Tuple$<$int, int$>$$>$()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_e_c_s_1_1_data_1_1_object_sync_server_data_a37ec55f2f9f82852e4acfcec8c6128de}\label{class_e_c_s_1_1_data_1_1_object_sync_server_data_a37ec55f2f9f82852e4acfcec8c6128de}} 
+\index{ECS.Data.ObjectSyncServerData@{ECS.Data.ObjectSyncServerData}!cachedSyncInfoList@{cachedSyncInfoList}}
+\index{cachedSyncInfoList@{cachedSyncInfoList}!ECS.Data.ObjectSyncServerData@{ECS.Data.ObjectSyncServerData}}
+\doxysubsubsection{\texorpdfstring{cachedSyncInfoList}{cachedSyncInfoList}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{struct_e_c_s_1_1_data_1_1_server_sync_state_info}{Server\+Sync\+State\+Info}}$>$ E\+C\+S.\+Data.\+Object\+Sync\+Server\+Data.\+cached\+Sync\+Info\+List = new List$<$\mbox{\hyperlink{struct_e_c_s_1_1_data_1_1_server_sync_state_info}{Server\+Sync\+State\+Info}}$>$()}
+
+\mbox{\Hypertarget{class_e_c_s_1_1_data_1_1_object_sync_server_data_a5f1c8819e8611bc6b80e9d00299df80c}\label{class_e_c_s_1_1_data_1_1_object_sync_server_data_a5f1c8819e8611bc6b80e9d00299df80c}} 
+\index{ECS.Data.ObjectSyncServerData@{ECS.Data.ObjectSyncServerData}!currentKeyFrame@{currentKeyFrame}}
+\index{currentKeyFrame@{currentKeyFrame}!ECS.Data.ObjectSyncServerData@{ECS.Data.ObjectSyncServerData}}
+\doxysubsubsection{\texorpdfstring{currentKeyFrame}{currentKeyFrame}}
+{\footnotesize\ttfamily int E\+C\+S.\+Data.\+Object\+Sync\+Server\+Data.\+current\+Key\+Frame}
+
+\mbox{\Hypertarget{class_e_c_s_1_1_data_1_1_object_sync_server_data_ae59b41bb583292e25a5bd5bff651b303}\label{class_e_c_s_1_1_data_1_1_object_sync_server_data_ae59b41bb583292e25a5bd5bff651b303}} 
+\index{ECS.Data.ObjectSyncServerData@{ECS.Data.ObjectSyncServerData}!enable@{enable}}
+\index{enable@{enable}!ECS.Data.ObjectSyncServerData@{ECS.Data.ObjectSyncServerData}}
+\doxysubsubsection{\texorpdfstring{enable}{enable}}
+{\footnotesize\ttfamily Reactive\+Property$<$bool$>$ E\+C\+S.\+Data.\+Object\+Sync\+Server\+Data.\+enable = new Reactive\+Property$<$bool$>$(false)}
+
+\mbox{\Hypertarget{class_e_c_s_1_1_data_1_1_object_sync_server_data_a7ff2439ac8588ba941a49b9b0ccb38f9}\label{class_e_c_s_1_1_data_1_1_object_sync_server_data_a7ff2439ac8588ba941a49b9b0ccb38f9}} 
+\index{ECS.Data.ObjectSyncServerData@{ECS.Data.ObjectSyncServerData}!internalFrame@{internalFrame}}
+\index{internalFrame@{internalFrame}!ECS.Data.ObjectSyncServerData@{ECS.Data.ObjectSyncServerData}}
+\doxysubsubsection{\texorpdfstring{internalFrame}{internalFrame}}
+{\footnotesize\ttfamily int E\+C\+S.\+Data.\+Object\+Sync\+Server\+Data.\+internal\+Frame}
+
+\mbox{\Hypertarget{class_e_c_s_1_1_data_1_1_object_sync_server_data_a986916aa6b3a97c47cd4568145b227ba}\label{class_e_c_s_1_1_data_1_1_object_sync_server_data_a986916aa6b3a97c47cd4568145b227ba}} 
+\index{ECS.Data.ObjectSyncServerData@{ECS.Data.ObjectSyncServerData}!internalFrameSize@{internalFrameSize}}
+\index{internalFrameSize@{internalFrameSize}!ECS.Data.ObjectSyncServerData@{ECS.Data.ObjectSyncServerData}}
+\doxysubsubsection{\texorpdfstring{internalFrameSize}{internalFrameSize}}
+{\footnotesize\ttfamily int E\+C\+S.\+Data.\+Object\+Sync\+Server\+Data.\+internal\+Frame\+Size = 6}
+
+\mbox{\Hypertarget{class_e_c_s_1_1_data_1_1_object_sync_server_data_ae204e0ec8d844c0e668477df3fb4e329}\label{class_e_c_s_1_1_data_1_1_object_sync_server_data_ae204e0ec8d844c0e668477df3fb4e329}} 
+\index{ECS.Data.ObjectSyncServerData@{ECS.Data.ObjectSyncServerData}!preparedSyncInfoList@{preparedSyncInfoList}}
+\index{preparedSyncInfoList@{preparedSyncInfoList}!ECS.Data.ObjectSyncServerData@{ECS.Data.ObjectSyncServerData}}
+\doxysubsubsection{\texorpdfstring{preparedSyncInfoList}{preparedSyncInfoList}}
+{\footnotesize\ttfamily Reactive\+Collection$<$\mbox{\hyperlink{struct_e_c_s_1_1_data_1_1_server_sync_state_info}{Server\+Sync\+State\+Info}}$>$ E\+C\+S.\+Data.\+Object\+Sync\+Server\+Data.\+prepared\+Sync\+Info\+List = new Reactive\+Collection$<$\mbox{\hyperlink{struct_e_c_s_1_1_data_1_1_server_sync_state_info}{Server\+Sync\+State\+Info}}$>$()}
+
+\mbox{\Hypertarget{class_e_c_s_1_1_data_1_1_object_sync_server_data_aa7350154da426f9f5e0027734e17ef30}\label{class_e_c_s_1_1_data_1_1_object_sync_server_data_aa7350154da426f9f5e0027734e17ef30}} 
+\index{ECS.Data.ObjectSyncServerData@{ECS.Data.ObjectSyncServerData}!serverKeyFrame@{serverKeyFrame}}
+\index{serverKeyFrame@{serverKeyFrame}!ECS.Data.ObjectSyncServerData@{ECS.Data.ObjectSyncServerData}}
+\doxysubsubsection{\texorpdfstring{serverKeyFrame}{serverKeyFrame}}
+{\footnotesize\ttfamily int E\+C\+S.\+Data.\+Object\+Sync\+Server\+Data.\+server\+Key\+Frame}
+
+\mbox{\Hypertarget{class_e_c_s_1_1_data_1_1_object_sync_server_data_affa5900d4c9b0ab6e3c5ceb71091595d}\label{class_e_c_s_1_1_data_1_1_object_sync_server_data_affa5900d4c9b0ab6e3c5ceb71091595d}} 
+\index{ECS.Data.ObjectSyncServerData@{ECS.Data.ObjectSyncServerData}!syncSubject@{syncSubject}}
+\index{syncSubject@{syncSubject}!ECS.Data.ObjectSyncServerData@{ECS.Data.ObjectSyncServerData}}
+\doxysubsubsection{\texorpdfstring{syncSubject}{syncSubject}}
+{\footnotesize\ttfamily I\+Subject$<$Value\+Tuple$<$int, int$>$ $>$ E\+C\+S.\+Data.\+Object\+Sync\+Server\+Data.\+sync\+Subject = new Subject$<$Value\+Tuple$<$int, int$>$$>$()}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Object/\+Script/\+Data/Object\+Sync\+Data.\+cs\end{DoxyCompactItemize}

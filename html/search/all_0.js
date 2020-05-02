@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['_5fassetinfodict_0',['_assetInfoDict',['../class_asset_1_1_asset_config.html#adb6216a51087786f009ed4666b5dc799',1,'Asset::AssetConfig']]]
+  ['_5fassetinfodict_0',['_assetInfoDict',['../class_e_c_s_1_1_config_1_1_asset_config.html#a4f33f4892dbb1f1dc20d41cb3301a3de',1,'ECS::Config::AssetConfig']]]
 ];

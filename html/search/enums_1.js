@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['buffstatetype_870',['BuffStateType',['../namespace_e_c_s_1_1_object_1_1_data.html#a41124177df8322a2e7dbb6cff1371424',1,'ECS::Object::Data']]]
+  ['buffstatetype_868',['BuffStateType',['../namespace_e_c_s_1_1_data.html#a2929aa60cc7d0d6a1bb40a3626e6996f',1,'ECS::Data']]]
 ];
